@@ -10,7 +10,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AppComponent implements OnInit {
 
-  public title = 'client';
+  public title = 'Dating App';
   public users: any;
 
   constructor(private http: HttpClient) {}
